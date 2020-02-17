@@ -1,2 +1,1 @@
-# Thankful
-## Be positive, Everyday
+# Thankful Backend

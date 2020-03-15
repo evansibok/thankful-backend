@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "Evans Ibok",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "cross-env": "^7.0.2",
     "eslint": "^6.8.0",
@@ -28,5 +28,9 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "helmet": "^3.21.3"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/thankful-today/backend/issues"
+  },
+  "homepage": "https://github.com/thankful-today/backend/blob/master/README.md"
 }

@@ -1,12 +1,12 @@
 const express = require('express');
 
-const routes = require('./base-router')
+const routes = require('./base-router');
 const rootMiddleware = require('./root-middleware');
 
 const app = express();
 
-rootMiddleware(app)
+rootMiddleware(app);
 
-app.use('/', routes)
+app.use('/', routes);
 
 module.exports = app;

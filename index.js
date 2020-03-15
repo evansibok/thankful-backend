@@ -6,4 +6,4 @@ const PORT = process.env.PORT || 4002;
 
 server.listen(PORT, () => {
   console.log(`*** Server listening on port ${PORT} ***`);
-})
+});

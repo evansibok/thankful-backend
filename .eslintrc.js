@@ -6,7 +6,6 @@ module.exports = {
     node: true,
   },
   extends: [
-    'plugin:react/recommended',
     'airbnb',
     'prettier',
   ],
@@ -21,12 +20,10 @@ module.exports = {
     },
     ecmaVersion: 2018,
   },
-  plugins: [
-    'react',
-  ],
+  plugins: ['prettier'],
   rules: {
-    "semi": 2,
-    "annoying-rule-we-want-disabled": 0,
-    "prettier/prettier": ["error"],
+    semi: 2,
+    'annoying-rule-we-want-disabled': 0,
+    'prettier/prettier': ['error'],
   },
 };
